@@ -1,0 +1,20 @@
+.divwrap
+{
+    background-color: #CCC;
+}
+.div1
+{
+    float: left;
+}
+.div2
+{
+    float: right;
+}
+.div2 img
+{
+    display: block;
+}
+.divclear
+{
+    clear: both;
+}

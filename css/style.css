@@ -13,21 +13,31 @@ body{
 div > p{
     color: black;
     font-size: larger;
+    
+}
+.naam{
+    text-decoration: none;   
+}
+a{
+    text-decoration:none;
 }
 
 .grid-container{
     display: grid;
     grid-template-columns: 350px 350px 350px;
+
     justify-content: space-between;
 }
 img{
     max-width: 500px;
 }
-.grid-container > div{
+
+.een,.twee,.drie{
     text-align: center;
     font-weight: bold;
     background-color: yellow;
     border-radius: 20px;
+    
 }
 
 h1{
@@ -40,5 +50,33 @@ h1{
 }
 
 footer{
-    margin-top: ;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+.ig{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: yellow;
+
+}
+.flexig{
+    display: flex;  
+    justify-content: center;
+}
+.flexig img{
+    max-width: 30px;
+
+}
+.igcontact{
+    font-size: larger;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.grid-container a{
+    display: block;
 }
